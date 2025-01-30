@@ -11,18 +11,6 @@ The analysis covers aspects such as:
 ✅ Conducting **statistical hypothesis testing** on delivery efficiency  
  
  ---
- 
-## **Table of Contents**  
-- [Project Overview](#project-overview)  
-- [Dataset](#dataset)  
-- [Project Structure](#project-structure)  
-- [Key Findings](#key-findings)  
-- [Technologies Used](#technologies-used)  
-- [Setup & Execution](#setup--execution)  
-- [Business Recommendations](#business-recommendations)  
-- [Author](#author)  
-
----
 
 ## **Dataset**  
 📂 The dataset contains **1,000 orders** with the following attributes:  
@@ -41,33 +29,6 @@ The analysis covers aspects such as:
 | **Commission Fee**        | Fee charged by the platform per order (₹) |
 | **Payment Processing Fee** | Transaction processing fee (₹) |
 | **Refunds/Chargebacks**   | Refund amount if the order was disputed (₹) |
-
----
-
-## **Project Structure**  
-
-📁 **Project Folder**  
-```
-/food_delivery_analysis  
-│── data/  
-│   ├── food_orders_new_delhi.csv  
-│── notebooks/  
-│   ├── food_delivery_analysis.ipynb  
-│── src/  
-│   ├── data_cleaning.py  
-│   ├── data_analysis.py  
-│── README.md  
-│── requirements.txt  
-│── results/  
-│   ├── charts/  
-│   ├── summary_report.pdf  
-```
-
-- **data/** → Contains the dataset (`food_orders_new_delhi.csv`).  
-- **notebooks/** → Jupyter notebook with exploratory data analysis (EDA).  
-- **src/** → Python scripts for **data cleaning and analysis**.  
-- **results/** → Stores **charts, reports, and summary insights**.  
-- **requirements.txt** → Lists required Python libraries.  
 
 ---
 
@@ -109,23 +70,11 @@ The analysis covers aspects such as:
 ### **1️⃣ Install Dependencies**  
 Ensure you have **Python 3.x** installed. Run the following command to install the required libraries:  
 
-```bash
-pip install -r requirements.txt
-```
-
 ### **2️⃣ Run the Jupyter Notebook (Recommended)**  
 To explore the dataset and analysis in an interactive way:  
 
 ```bash
-jupyter notebook notebooks/food_delivery_analysis.ipynb
-```
-
-### **3️⃣ Run the Python Scripts**  
-Alternatively, you can execute the analysis scripts from the command line:  
-
-```bash
-python src/data_cleaning.py  
-python src/data_analysis.py  
+jupyter notebook notebooks/foodDeliveryAnalysis.ipynb
 ```
 
 ---
